@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 
 const headlines = [
-  "Learn climate issues.",
+  "Build climate expertise.",
   "Solve new problems.",
   "Make new friends.",
 ];
@@ -62,7 +62,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.8 }}
           className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed"
-        >              We are creating a <strong>tight-knit community</strong> of <strong>early professionals</strong> who are looking to build climate knowledge and get honest guidance on personal and professional growth. Based in <strong>New York City</strong>, the best city in the world ✌🏻. 
+        >              We are a <strong>tight-knit community</strong> of <strong>climate professionals</strong> working in business, finance, technology, and science, and thinking about the future of climate and energy. 
         </motion.p>
 
         <motion.div

@@ -10,21 +10,21 @@ const pastBooks = [
     image: "/Club Climate/image 18.png",
     title: "The price is wrong",
     author: "Brett Christopher",
-    description: "Why LCoE is the wrong metric for evaluating renewable energy costs, and the role of subsidies in the energy transition.",
+    description: "Why renewable energy economics need a reality check.",
     href: "https://www.versobooks.com/products/3069-the-price-is-wrong",
   },
   {
     image: "/Club Climate/image 19.png",
     title: "This changes everything",
     author: "Naomi Klein",
-    description: "The issue of climate change requires a fundamental rethinking of our economic structure for a livable future for all.",
+    description: "Rethinking capitalism for climate",
     href: "https://www.amazon.com/This-Changes-Everything-Capitalism-Climate/dp/1451697392",
   },
   {
     image: "/Club Climate/image 20.png",
     title: "The Grid",
     author: "Gretchen Bakke",
-    description: "How intermittency from renewable energy sources represent new 21st challenges for a grid built in the 20th century.",
+    description: "How 20th century grids struggle with 21st century energy",
     href: "https://www.amazon.com/Grid-Fraying-Between-Americans-Energy/dp/1608196100"
   }
 ];

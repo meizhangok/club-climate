@@ -18,7 +18,7 @@ export default function Footer() {
           </h2>
           
           <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto">
-            Come to our next book club meeting, or reach out to us to learn more about how you can get involved.
+            Interested in joining? We're always looking for curious people working on or thinking seriously about climate. Say hi, or come to our next book club meeting.
           </p>
 
           <div className="space-y-4 pt-8 flex justify-center">
@@ -27,10 +27,7 @@ export default function Footer() {
 
           <div className="pt-12 space-y-4">
             <p className="text-sm text-gray-400">
-              Made with ❤️ by Mei Zhang, Ha Tran Nguyen Phuong, Beniamin Strzelecki, and Alex Chen. 
-            </p>
-            <p className="text-sm text-gray-400">
-              Founded in 2023
+            Founded in 2023. Made with ❤️ by Mei Zhang, Ha Tran Nguyen Phuong, Beniamin Strzelecki, and Alex Chen. 
             </p>
           </div>
         </motion.div>

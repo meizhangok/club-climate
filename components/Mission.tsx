@@ -22,11 +22,11 @@ export default function Mission() {
         
         <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6">
           <p className="text-xl md:text-2xl text-center font-medium">
-            Club Climate is a community for ambitious climate-interested professionals with a passion for learning and action.
+            Club Climate is a community for ambitious climate professionals.
           </p>
           
           <p className="text-lg text-center">
-            Founded in 2023, our group is based in New York and meets twice a month to discuss books and news focused on climate change and the energy transition. What started as a casual meeting of friends from all walks of life turned into a tight-knit community of young professionals who share their knowledge and work experiences at the forefront of business, finance, technology, and science.
+          Founded in 2023, what began as a small reading group has grown into a 30-person community spanning energy, finance, technology, and science. We meet twice monthly to work through challenging books on energy economics and grid infrastructure, and to share honest guidance on navigating climate careers.
           </p>
         </div>
       </motion.div>
