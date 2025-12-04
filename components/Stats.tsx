@@ -6,13 +6,17 @@ import { useRef } from "react";
 
 const stats = [
   { number: "30+", label: "Active Members", extra: null },
+  { number: "2x", label: "Monthly Meetings", extra: null },
   { 
     number: "15+", 
     label: "Countries Represented",
-    extra: "🇺🇸 🇵🇱 🇻🇳 🇨🇦 🇮🇳 🇹🇼 🇬🇧 🇭🇰 🇧🇪 🇨🇳 🇯🇵 🇫🇷 🇩🇴 🇰🇷 🇵🇭"
+    extra: "flags" // Changed this
   },
-  { number: "2x", label: "Monthly Meetings", extra: null },
+  
 ];
+
+// Add this new array right after stats:
+const countries = ["us", "pl", "vn", "ca", "in", "tw", "gb", "hk", "be", "cn", "jp", "fr", "do", "kr", "ph"];
 
 export default function Stats() {
   const ref = useRef(null);
@@ -41,12 +45,24 @@ export default function Stats() {
               <p className="text-lg md:text-xl text-climate-cream font-medium mb-3">
                 {stat.label}
               </p>
-              {stat.extra && (
-                <p className="text-base md:text-lg text-white/90 mt-2">
-                  {stat.extra}
-                </p>
-              )}
             </motion.div>
+          ))}
+        </motion.div>
+        
+        {/* Flags section - now outside the grid */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+          transition={{ duration: 0.6, delay: 0.6 }}
+          className="flex gap-3 justify-center mt-8 flex-wrap"
+        >
+          {countries.map((country) => (
+            <img 
+              key={country}
+              src={`https://flagcdn.com/w80/${country}.png`}
+              alt={country.toUpperCase()}
+              className="w-10 h-10 rounded-full object-cover shadow-md hover:scale-110 transition-transform"
+            />
           ))}
         </motion.div>
       </div>

@@ -29,7 +29,7 @@ export default function Companies() {
               animate={isInView ? { opacity: 0.9, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.1 }}
               whileHover={{ y: -8, scale: 1.05, opacity: 1 }}
-              className="relative w-32 h-32 opacity-50 transition-all duration-300 cursor-pointer"
+              className="relative w-20 h-20 opacity-50 transition-all duration-300 cursor-pointer"
             >
               <Image
                 src={`/Club Climate/${company}.png`}

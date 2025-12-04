@@ -26,7 +26,7 @@ export default function Mission() {
           </p>
           
           <p className="text-lg text-center">
-          Founded in 2023, what began as a small reading group has grown into a 30-person community spanning energy, finance, technology, and science. We meet twice monthly to work through challenging books on energy economics and grid infrastructure, and to share honest guidance on navigating climate careers.
+          Founded in 2023, Club Climate brings together 30 young professionals across energy, business, technology, and policy. We meet twice monthly to work through challenging books on energy economics and grid infrastructure—but we're more than a book club. We're a community united by curiosity about climate solutions and committed to supporting each other as we build careers in this space.
           </p>
         </div>
       </motion.div>

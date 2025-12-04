@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 
 const headlines = [
   "Build climate expertise.",
-  "Solve new problems.",
+  "Solve problems.",
   "Make new friends.",
 ];
 
@@ -62,7 +62,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.8 }}
           className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed"
-        >              We are a <strong>tight-knit community</strong> of <strong>climate professionals</strong> working in business, finance, technology, and science, and thinking about the future of climate and energy. 
+        >              We are a <strong>tight-knit community</strong> of <strong>young climate professionals</strong> who work across business, policy, and technology. 
         </motion.p>
 
         <motion.div
